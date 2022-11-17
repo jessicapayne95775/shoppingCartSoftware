@@ -7,7 +7,7 @@ The software is a shopping cart software that allows for adding, removing, and v
 I wrote this software to get a better understanding of how Java works. This was my first Java project and is the first of many that are to come.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/tBbaAa6IuqA)
 
 # Development Environment
 
