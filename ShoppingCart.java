@@ -5,7 +5,7 @@ public class ShoppingCart {
     private ArrayList<Items> shoppingCart;
 
     //Contructor
-    public ShoppingCart(String name, int cartSize){
+    public ShoppingCart(int cartSize){
         this.cartSize = cartSize;
         shoppingCart = new ArrayList<>();
         }
