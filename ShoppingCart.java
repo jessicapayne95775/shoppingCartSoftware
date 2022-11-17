@@ -33,20 +33,21 @@ public class ShoppingCart {
             System.out.println("Item removed from cart.");
         }
     }
-    // public String toString(){
-    //     // display the contents of the cart.
-    //     String result = "Current Shopping Cart: ";
-    //     for (Items i : shoppingCart){
-    //         result += i.getItem() + ", ";
-    //     }
-    //     if (shoppingCart[getCartSize() - 1] == ","){
-    //         result.remove(result[getCartSize()]);
-    //         result.remove(result[getCartSize()-1]);
-    //     }
-    //     return result;
-    //}
-    public void displayCart(){
-        String display = shoppingCart.toString();
-        System.out.println(display);
+    public String toString(){
+        //display the contents of the cart.
+        String result = "Current Shopping Cart: ";
+        for (Items i : shoppingCart){
+            result += i.getItem() + ", ";
+        }
+        // if (shoppingCart[getCartSize() - 1] == ","){
+        //     result.remove(result[getCartSize()]);
+        //     result.remove(result[getCartSize()-1]);
+        // }
+        return result;
     }
+
+    // public void displayCart(){
+    //     String display = shoppingCart.toString();
+    //     System.out.println(display);
+    // }
 }
